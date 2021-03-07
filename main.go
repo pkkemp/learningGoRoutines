@@ -21,6 +21,6 @@ func main() {
 		fmt.Println(msg)
 	}("going")
 
-	time.Sleep(time.Second)
+	time.Sleep(time.Second*5)
 	fmt.Println("done")
 }
